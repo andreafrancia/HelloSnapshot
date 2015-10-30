@@ -16,6 +16,11 @@
 @implementation HelloSnapshotTests
 
 - (void)testExample {
+    UILabel * label = [[UILabel alloc]init];
+    
+    label.frame = CGRectMake(0, 0, 30, 30);
+    label.text = @"Hello world!";
+    
     XCTAssertEqualObjects(@"1", @"1");
 }
 
