@@ -7,8 +7,9 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <FBSnapshotTestCase/FBSnapshotTestCase.h>
 
-@interface HelloSnapshotTests : XCTestCase
+@interface HelloSnapshotTests : FBSnapshotTestCase
 
 @end
 
