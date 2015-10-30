@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		651B305A1BE3BBDD00654E29 /* ReferenceImages_64 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ReferenceImages_64; sourceTree = "<group>"; };
 		656CA44E1BE3A96C00726FC4 /* HelloSnapshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSnapshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656CA4521BE3A96C00726FC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		656CA4541BE3A96C00726FC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -128,6 +129,7 @@
 			children = (
 				656CA46B1BE3A96C00726FC4 /* HelloSnapshotTests.m */,
 				656CA46D1BE3A96C00726FC4 /* Info.plist */,
+				651B305A1BE3BBDD00654E29 /* ReferenceImages_64 */,
 			);
 			path = HelloSnapshotTests;
 			sourceTree = "<group>";
