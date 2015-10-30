@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651B305C1BE3C70D00654E29 /* PomodoroHistory_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651B305B1BE3C70D00654E29 /* PomodoroHistory_Tests.m */; };
+		651B305F1BE3CAE700654E29 /* PomodoroHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 651B305E1BE3CAE700654E29 /* PomodoroHistory.m */; };
 		656CA4531BE3A96C00726FC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 656CA4521BE3A96C00726FC4 /* main.m */; };
 		656CA4561BE3A96C00726FC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 656CA4551BE3A96C00726FC4 /* AppDelegate.m */; };
 		656CA4591BE3A96C00726FC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656CA4581BE3A96C00726FC4 /* ViewController.m */; };
@@ -30,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		651B305A1BE3BBDD00654E29 /* ReferenceImages_64 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ReferenceImages_64; sourceTree = "<group>"; };
+		651B305B1BE3C70D00654E29 /* PomodoroHistory_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PomodoroHistory_Tests.m; sourceTree = "<group>"; };
+		651B305D1BE3CAE700654E29 /* PomodoroHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PomodoroHistory.h; sourceTree = "<group>"; };
+		651B305E1BE3CAE700654E29 /* PomodoroHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PomodoroHistory.m; sourceTree = "<group>"; };
 		656CA44E1BE3A96C00726FC4 /* HelloSnapshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSnapshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656CA4521BE3A96C00726FC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		656CA4541BE3A96C00726FC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +114,8 @@
 				656CA4581BE3A96C00726FC4 /* ViewController.m */,
 				656CA45A1BE3A96C00726FC4 /* Main.storyboard */,
 				656CA45D1BE3A96C00726FC4 /* Assets.xcassets */,
+				651B305D1BE3CAE700654E29 /* PomodoroHistory.h */,
+				651B305E1BE3CAE700654E29 /* PomodoroHistory.m */,
 				656CA45F1BE3A96C00726FC4 /* LaunchScreen.storyboard */,
 				656CA4621BE3A96C00726FC4 /* Info.plist */,
 				656CA4511BE3A96C00726FC4 /* Supporting Files */,
@@ -130,6 +137,7 @@
 				656CA46B1BE3A96C00726FC4 /* HelloSnapshotTests.m */,
 				656CA46D1BE3A96C00726FC4 /* Info.plist */,
 				651B305A1BE3BBDD00654E29 /* ReferenceImages_64 */,
+				651B305B1BE3C70D00654E29 /* PomodoroHistory_Tests.m */,
 			);
 			path = HelloSnapshotTests;
 			sourceTree = "<group>";
@@ -347,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				656CA4591BE3A96C00726FC4 /* ViewController.m in Sources */,
+				651B305F1BE3CAE700654E29 /* PomodoroHistory.m in Sources */,
 				656CA4561BE3A96C00726FC4 /* AppDelegate.m in Sources */,
 				656CA4531BE3A96C00726FC4 /* main.m in Sources */,
 			);
@@ -357,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				656CA46C1BE3A96C00726FC4 /* HelloSnapshotTests.m in Sources */,
+				651B305C1BE3C70D00654E29 /* PomodoroHistory_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
