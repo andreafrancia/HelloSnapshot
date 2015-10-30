@@ -8,6 +8,6 @@ target 'HelloSnapshot' do
 end
 
 target 'HelloSnapshotTests' do
-
+    pod 'FBSnapshotTestCase/Core'
 end
 
