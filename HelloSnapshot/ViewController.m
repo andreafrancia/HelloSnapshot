@@ -7,16 +7,26 @@
 //
 
 #import "ViewController.h"
+#import "PomodoroHistory.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UITableView *table;
 
 @end
 
-@implementation ViewController
+@implementation ViewController {
+    PomodoroHistory * _history;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _history = [[PomodoroHistory alloc]init];
+    for(int i =0; i < 40; i++) {
+        [_history addTimeBoxWithDescription:@"presenation" duration:1500 start:nil];
+    }
+    self.table.dataSource = _history;
+    [self.table registerClass:[UITableViewCell class]
+       forCellReuseIdentifier:@"cell"];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -35,4 +35,12 @@
 {
     [_timeBoxes addObject:description];
 }
+
+-(UITableViewCell *)tableView:(UITableView *)tableView
+        cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    cell.textLabel.text = @"ciao";
+    return cell;
+}
 @end
