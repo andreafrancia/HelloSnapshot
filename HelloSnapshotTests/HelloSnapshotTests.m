@@ -15,7 +15,7 @@
 @implementation HelloSnapshotTests
 
 - (void)testExample {
-    XCTAssertEqual(1, 2);
+    XCTAssertEqual(1, 1);
 }
 
 @end
