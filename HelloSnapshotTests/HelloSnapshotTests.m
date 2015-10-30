@@ -21,7 +21,7 @@
     label.frame = CGRectMake(0, 0, 30, 30);
     label.text = @"Hello world!";
     
-    XCTAssertEqualObjects(@"Hello world!", label.text);
+    FBSnapshotVerifyView(label, nil);
 }
 
 @end
