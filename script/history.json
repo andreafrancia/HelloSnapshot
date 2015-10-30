@@ -1,0 +1,27 @@
+[
+    {
+        start:1446800400,
+        duration:1500,
+        description:"presentazione"
+    },
+    {
+        start:1446802260,
+        duration:1500,
+        description:"Esercizio"
+    },
+    {
+        start:1446801900,
+        duration:304,
+        description:"Esercizio"
+    },
+    {
+        start:1446794700,
+        duration:1450,
+        description:"pratica"
+    },
+    {
+        start:1446881100,
+        duration:1450,
+        description:"arrivo"
+    },
+]

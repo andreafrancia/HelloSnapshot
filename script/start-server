@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Serving history on: http://127.0.0.1:8000/history.json"
+
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$script_dir"
+python -m SimpleHTTPServer 8000
