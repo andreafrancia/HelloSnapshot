@@ -24,7 +24,6 @@
 
     UITableViewCell * cell;
     UITableView * table = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, 320, 700)];
-    [table registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     table.dataSource = history;
 
     cell = [history tableView:table

@@ -25,8 +25,6 @@
         [_history addTimeBoxWithDescription:@"presenation" duration:1500 start:nil];
     }
     self.table.dataSource = _history;
-    [self.table registerClass:[UITableViewCell class]
-       forCellReuseIdentifier:@"cell"];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -39,6 +39,7 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView
         cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     cell.textLabel.text = @"ciao";
     return cell;
