@@ -4,7 +4,7 @@
 # use_frameworks!
 
 target 'HelloSnapshot' do
-
+   pod 'ASIHTTPRequest'
 end
 
 target 'HelloSnapshotTests' do
