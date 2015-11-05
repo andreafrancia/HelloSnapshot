@@ -57,6 +57,26 @@ install_resource()
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "DYRateView/DYRateView/Resources/StarEmpty.png"
+  install_resource "DYRateView/DYRateView/Resources/StarEmpty@2x.png"
+  install_resource "DYRateView/DYRateView/Resources/StarEmptyLarge.png"
+  install_resource "DYRateView/DYRateView/Resources/StarEmptyLarge@2x.png"
+  install_resource "DYRateView/DYRateView/Resources/StarFull.png"
+  install_resource "DYRateView/DYRateView/Resources/StarFull@2x.png"
+  install_resource "DYRateView/DYRateView/Resources/StarFullLarge.png"
+  install_resource "DYRateView/DYRateView/Resources/StarFullLarge@2x.png"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "DYRateView/DYRateView/Resources/StarEmpty.png"
+  install_resource "DYRateView/DYRateView/Resources/StarEmpty@2x.png"
+  install_resource "DYRateView/DYRateView/Resources/StarEmptyLarge.png"
+  install_resource "DYRateView/DYRateView/Resources/StarEmptyLarge@2x.png"
+  install_resource "DYRateView/DYRateView/Resources/StarFull.png"
+  install_resource "DYRateView/DYRateView/Resources/StarFull@2x.png"
+  install_resource "DYRateView/DYRateView/Resources/StarFullLarge.png"
+  install_resource "DYRateView/DYRateView/Resources/StarFullLarge@2x.png"
+fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

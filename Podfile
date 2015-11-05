@@ -4,6 +4,7 @@
 # use_frameworks!
 
 target 'HelloSnapshot' do
+   pod 'DYRateView'
    pod 'ASIHTTPRequest'
 end
 
